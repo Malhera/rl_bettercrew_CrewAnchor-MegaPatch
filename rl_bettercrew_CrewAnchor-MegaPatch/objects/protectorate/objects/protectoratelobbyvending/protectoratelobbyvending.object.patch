@@ -1,0 +1,77 @@
+[
+    [
+        {
+          "op" : "test",
+          "path" : "/scripts",
+          "inverse" : true
+        },
+        {
+          "op" : "add",
+          "path" : "/scripts",
+          "value" : [ ]
+        }
+    ],
+    [
+        {
+            "op" : "test",
+            "path" : "/npcToy",
+            "inverse" : true
+        },
+        {
+            "op": "add",
+            "path" : "/scripts/-",
+            "value" : "/scripts/npcToyObject.lua"
+        },
+        {
+            "op": "add",
+            "path": "/npcToy",
+            "value": {
+                "influence": [
+                    "vendingmachineActivate",
+                    "vendingmachineCollect",
+                    "vendingmachineConsume",
+                    "vendingmachineComplete"
+                ],
+                "defaultReactions": {
+                    "vendingmachineActivate": [
+                        [
+                            1,
+                            "pressbutton"
+                        ]
+                    ],
+                    "vendingmachineCollect": [
+                        [
+                            1,
+                            "crouchcollect"
+                        ]
+                    ],
+                    "vendingmachineConsume": [
+                        [
+                            1,
+                            "drink"
+                        ]
+                    ],
+                    "vendingmachineComplete": [
+                        [
+                            1,
+                            "smile"
+                        ],
+                        [
+                            0.1,
+                            "vomit"
+                        ]
+                    ]
+                },
+                "preciseStandPositionLeft": [
+                    -0.5,
+                    1
+                ],
+                "preciseStandPositionRight": [
+                    2,
+                    1
+                ],
+                "maxNpcs": 1
+            }
+        }
+    ]
+]

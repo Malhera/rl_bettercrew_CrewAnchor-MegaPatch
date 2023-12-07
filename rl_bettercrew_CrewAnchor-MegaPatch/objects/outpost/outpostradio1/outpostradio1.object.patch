@@ -1,0 +1,65 @@
+[
+    [
+        {
+          "op" : "test",
+          "path" : "/scripts",
+          "inverse" : true
+        },
+        {
+          "op" : "add",
+          "path" : "/scripts",
+          "value" : [ ]
+        }
+    ],
+    [
+        {
+            "op" : "test",
+            "path" : "/npcToy",
+            "inverse" : true
+        },
+        {
+            "op": "add",
+            "path" : "/scripts/-",
+            "value" : "/scripts/npcToyObject.lua"
+        },
+        {
+            "op": "add",
+            "path": "/npcToy",
+            "value": {
+                "influence": [
+                    "hylotlmusic",
+                    "hylotlmusic",
+                    "hylotlmusic",
+                    "hylotlmusicFinished"
+                ],
+                "defaultReactions": {
+                    "hylotlmusic": [
+                        [
+                            1,
+                            "hylotldance"
+                        ]
+                    ],
+                    "hylotlmusicFinished": [
+                        [
+                            1,
+                            "hylotldance"
+                        ],
+                        [
+                            1,
+                            "smile"
+                        ],
+                        [
+                            1,
+                            "laugh"
+                        ]
+                    ]
+                },
+                "randomStandXRange": [
+                    -4,
+                    4
+                ],
+                "maxNpcs": 4
+            }
+        }
+    ]
+]

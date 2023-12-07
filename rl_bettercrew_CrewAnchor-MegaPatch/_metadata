@@ -1,0 +1,12 @@
+{
+  "author" : "Vix",
+  "description" : "A fairly important patch for BetterCrew (either [b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3031599475]Full[/url][/b] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2892655130]diet version[/url]) so your crew acknowledges modded furniture/stations and move to them according to their jobs!\n[quote]\n[b]Other very important patch:[/b]\n[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3092932735]Race MegaPatch[/url][/list]\n[/quote]\n\n[h1]The game won't start if you don't have [b]one[/b] of the two versions of Better Crew installed[/h1]\n[h2][b]Don't install both the full and diet versions of better crew at once[/b][/h2]\n\n\nCurrently added support for a selection of objects from the following mods:\n[list][*]Kitsune Race\n[*]Neki (and Neki Debloat's box)\n[*]SCS Crafting Stations\n[*]More Outpost Objects\n[*]Avali Triage\n[*]AvaliPlus\n[*]Avali Additions&Aguments Revisited\n[*]SteampunkCrafting!\n[*][i]more to come?[/i]\n[/list]\nAlso adds NPCtoy/Anchor tags to a couple vanilla items. Can add more on request.\n\nIt doesn't yet add mod-specific crew jobs though (like the nekimechanic/nekiengineer etc). I still have to do that too :/\n\nI'm prioritizing mods I use and/or get requested, but if some mod authors feel like support their creations themselves, that would be swell °^°",
+  "friendlyName" : "Better Crew - CrewAnchor MegaPatch",
+  "includes" : ["SCS Crafting Stations", "More Outpost Objects", "SteampunkCrafting!", "Avali", "Avali Augments And Assorments: Revisited", "AvaliA&A:R-MergedPatch", "Avali Plus", "AvaliPlus-GibberishPatch", "Neki", "NekiDebloat", "kitsunerace", "mkiotntworkshop"],
+  "link" : "steam://url/CommunityFilePage/3095344193",
+  "name" : "rl_bettercrew-crewanchorpatch",
+  "requires" : ["rl_bettercrew"],
+  "steamContentId" : "3095344193",
+  "tags" : "Miscellaneous|NPCs and Creatures|Ships|Species|Furniture and Objects|Mechanics",
+  "version" : "1.4.0a"
+}
